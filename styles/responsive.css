@@ -1,0 +1,30 @@
+@media only screen and (max-width: 767px) {
+  /* Styles for mobile devices */
+  .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .sidebar {
+    text-align: center;
+    width: 80px;
+    z-index: 200;
+  }
+  .sidebar-link {
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+  }
+  .sidebar-link img {
+    height: 20px;
+    cursor: pointer;
+  }
+  .sidebar-link div {
+      font-family: Roboto,arial;
+      font-size: 10px;
+  } 
+  .hamburger-menu {
+      width: 20px;
+  }
+  .youtube-logo {
+      width: 80px;
+  }
+}
